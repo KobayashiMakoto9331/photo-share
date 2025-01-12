@@ -2,7 +2,7 @@ import Image, { ImageProps } from "next/image";
 import noImage from "@/assets/images/no-image-avatar.svg";
 import { twMerge } from "tailwind-merge";
 
-type AvatarProps = {
+export type AvatarProps = {
   src?: string;
   alt?: string;
   size?: "small" | "medium" | "large";
